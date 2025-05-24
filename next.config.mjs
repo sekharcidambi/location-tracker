@@ -1,7 +1,5 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // Transpile Leaflet as it's not compatible with Next.js by default
-  transpilePackages: ['react-leaflet', 'leaflet'],
   eslint: {
     ignoreDuringBuilds: true,
   },
@@ -11,6 +9,6 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-};
+}
 
-export default nextConfig;
+export default nextConfig
